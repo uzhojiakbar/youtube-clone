@@ -1,0 +1,30 @@
+:root {
+    --main-color: #181818;
+    --second-color: #212121;
+    --left-right-padding: 0 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+#root {
+    background-color: var(--main-color);
+    min-height: 200vh;
+}
+
+#React {
+    height: 100%;
+    display: grid;
+    padding-top: 55px;
+}
